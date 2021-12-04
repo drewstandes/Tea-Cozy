@@ -1,0 +1,129 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+}
+
+nav {
+  margin-right: 15px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 15px;
+}
+
+body {
+  background-color: black;
+}
+
+.ourMission {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 69px;
+  background-color: black;
+}
+
+.ourMission .background-img {
+  display: flex;
+  align-items: center;
+  background-image: url(./images/img-mission-background.jpg);
+  position: inherit;
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+}
+
+.ourMission .background-img div {
+  background-color: black;
+  width: 1200px;
+}
+
+.tea-of-the {
+  position: relative;
+  top: 66px;
+  background-color: black;
+}
+
+.titleElement {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.multi-img-container-container {
+  display: flex;
+  justify-content: center;
+}
+
+.multi-img-container {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.imgBlock {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 80px;
+}
+
+.imgBlock img {
+  display: block;
+  width: inherit;
+}
+
+.imgBlock h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imgBlock.center { 
+    margin: 0 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+.locations .background-img {
+    display: flex;
+    align-items: center;
+    background-image: url(./images/img-locations-background.jpg);
+    position: inherit;
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+  }
+
+
